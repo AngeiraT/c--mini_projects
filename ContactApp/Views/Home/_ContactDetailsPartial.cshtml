@@ -1,0 +1,35 @@
+<!-- _ContactDetailsPartial.cshtml -->
+@model ContactApp.ViewModels.ContactViewModel
+
+<div>
+    <h2>Contact Details</h2>
+
+    <div>
+        <label>Name:</label>
+        <span>@Model.Name</span>
+    </div>
+    <div>
+        <label>Phone:</label>
+        <span>@Model.Phone</span>
+    </div>
+    <div>
+        <label>Fax:</label>
+        <span>@Model.Fax</span>
+    </div>
+    <div>
+        <label>Email:</label>
+        <span>@Model.Email</span>
+    </div>
+    <div>
+        <label>Notes:</label>
+        <span>@Model.Notes</span>
+    </div>
+    <div>
+        <label>Last Updated:</label>
+        <span>@Model.LastUpdateDate.ToString()</span>
+    </div>
+    <div>
+        <label>Last Updated By:</label>
+        <span>@Model.LastUpdateUserName</span>
+    </div>
+</div>
